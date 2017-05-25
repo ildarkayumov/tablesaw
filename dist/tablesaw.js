@@ -2910,7 +2910,9 @@ if( Tablesaw.mustard ) {
 		if( tablesaw.mode === 'swipe' ){
 			createSwipeTable( tablesaw, tablesaw.$table );
 		}
-
+		if( tablesaw.mode === 'columntoggle' ){
+			createSwipeTable( tablesaw, tablesaw.$table );
+		}
 	} );
 
 }());
